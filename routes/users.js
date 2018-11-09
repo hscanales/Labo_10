@@ -6,9 +6,7 @@ const AuthMiddleware = require("../middlewares/AuthMiddleware")
 //Requerimos el modelo
 const User = require("../models/users");
 /* GET users listing. */
-router.get('/', function(req, res, next) {
-  res.send('respond with a resource');
-});
+
 //ruta que nos devolvera el formulario para crear usuarios
 router.get('/signup',AuthController.create);
 //ruta que enviara los datos del usuario para almacenarlos en la base de datos
