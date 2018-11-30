@@ -1,6 +1,6 @@
 module.exports = {
     mongodb:
     {
-        URI: 'mongodb://localhost:27017/practica' 
+        URI: 'mongodb://godly:pretcorp2@ds121814.mlab.com:21814/bmf' 
     }
 }
